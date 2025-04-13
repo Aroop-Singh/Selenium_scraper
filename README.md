@@ -3,7 +3,7 @@
 Warning: Don't run these specially linkdin on your personal account use the burner account and have an extra layer of safety like VPN. If linkdin detects these crapping 
          activities they can ban you for these.   
 
-The data I collect through these codes are just for educational purposes and in no way to be sold or used for any monetary value.
+The data I collect through these codes are just for educational purposes and in no way to be sold or used for any monetary value. For any help, you can refer to the sample data attached as well.
 
 This repository contains three Selenium-based automation scripts that extract structured data from different types of platforms. Each script is designed to work independently and saves the scraped data into CSV files for analysis or tracking.
 
@@ -71,6 +71,6 @@ Note: Change your credentials here:
 
 
 # At last or conclusion:
-These codes run well for now in April 2025 might need to tweak some stuffs in the future. Anti-bot detection version linkdin and 404 handler version of these I have you can ask me on linkdin for these at a cheap price. 
+These codes run well for now in April 2025 might need to tweak some stuffs in the future. Anti-bot detection version linkdin and 404 handler version of these I have you can ask me on linkdin for these at a reasonable price. 
 Thanks
 
