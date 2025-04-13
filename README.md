@@ -1,12 +1,13 @@
 # Selenium-Based Web Scraper Collection
 
-Warning: Don't run these specially linkdin on your personal account use the burner account and have an extra layer of safety like VPN. 
+Warning: Don't run these specially linkdin on your personal account use the burner account and have an extra layer of safety like VPN. If linkdin detects these crapping 
+         activities they can ban you for these.   
 
 The data I collect through these codes are just for educational purposes and in no way to be sold or used for any monetary value.
 
 This repository contains three Selenium-based automation scripts that extract structured data from different types of platforms. Each script is designed to work independently and saves the scraped data into CSV files for analysis or tracking.
 
-> ⚠️ **Disclaimer**: The file names used here (e.g., `ecommerce_scraper.py`) are purposefully generic to respect platform terms of service. Actual scraping targets include Amazon, LinkedIn, and Glassdoor. Users must use their **own credentials** for scripts that require login.
+> ⚠️ **Disclaimer**: The file names used here (e.g., `ecommerce_scraper.py`) are purposefully generic to respect platform terms of service. Actual scraping targets include Amazon, LinkedIn, and Glassdoor. Users must use their **own credentials** for scripts that require login. The project owner cannot be held responsible for any bans that the user can face in case of excessive scrapping use at your own risk. 
 
 ---
 
