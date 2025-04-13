@@ -36,17 +36,17 @@ This script logs into LinkedIn, navigates to the Jobs section, searches for a gi
 Features: 
 1. Automatically scrolls and scrapes details like company name, role, location, job type, and Easy Apply status.
 2. Stores the data in linkedin_jobs_1.csv. (which you can edit for your own file name)
-3. Linkdin is a stable site so it can easily go through hundread of job listing pages without any issue. Same code can be modified to get specific buissnes company employee or hr data as well. 
+3. Linkdin is a stable site so it can easily go through hundread of job listing pages without any issue. Same code can be modified to get specific buissnes company employee or 
+   hr data as well. 
 
-📌 Notes:
-Requires a LinkedIn login. Replace the email and password in the script:
-username.send_keys("your_email_here")
-password.send_keys("your_password_here")
-
-You can modify the search keywords from:
-role_input.send_keys("Analyst")
-location_input.send_keys("Bengaluru")
-Limit is set to 25 jobs for safety and speed.
+Notes: Requires a LinkedIn login. Replace the email and password in the script:
+       username.send_keys("your_email_here")
+       password.send_keys("your_password_here")
+      
+       You can modify the search keywords from:
+       role_input.send_keys("Analyst")
+       location_input.send_keys("Bengaluru")
+       The limit is set to 25 jobs for safety and speed.
 
 
 # salarysite_scraper.py → For Glassdoor
@@ -56,18 +56,16 @@ Features:
 1. Scrapes company name, role, salary, rating, median salary, and open job count.
 2. Navigates through multiple pages and saves all results in Glassdoor_full.csv (which you can edit for your own file name).
 3. Unlike linkdin glassdoor is not that so stable so you will encounter random 404 or crashes i have a code to tackle this 404, but not so sure about crashes. 
-Requires a Glassdoor login. Replace the credentials in the script:
+   Requires a Glassdoor login. Replace the credentials in the script:
 
-
-📌 Notes:
-Change your credentials here:
-send_keys("your_email_here")
-send_keys("your_password_here")
-
-Modify job role and location here:
-role_input.send_keys("Analyst")
-location_input.send_keys("Bengaluru (India)")
-Make sure to monitor and control pagination manually if needed.
+Note: Change your credentials here:
+      send_keys("your_email_here")
+      send_keys("your_password_here")
+      
+      Modify job role and location here:
+      role_input.send_keys("Analyst")
+      location_input.send_keys("Bengaluru (India)")
+      Make sure to monitor and control pagination manually if needed.
 
 
 
