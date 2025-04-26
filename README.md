@@ -1,13 +1,15 @@
 # Selenium-Based Web Scraper Collection
 
-Warning: Don't run these specially linkdin on your personal account use the burner account and have an extra layer of safety like VPN. If linkdin detects these crapping 
-         activities they can ban you for these.   
+Warning: Don't run these, especially LinkedIn on your personal account use a burner account and have an extra layer of safety like a VPN. If linkdin detects these crapping 
+         activities they can ban you for these.
+
+Note: I have added a text file that you might want to run to have all the required libraries called requirements.txt run code: pip install -r requirements.txt to have it all         installed.     
 
 The data I collect through these codes are just for educational purposes and in no way to be sold or used for any monetary value. For any help, you can refer to the sample data attached as well.
 
 This repository contains three Selenium-based automation scripts that extract structured data from different types of platforms. Each script is designed to work independently and saves the scraped data into CSV files for analysis or tracking.
 
-> ⚠️ **Disclaimer**: The file names used here (e.g., `ecommerce_scraper.py`) are purposefully generic to respect platform terms of service. Actual scraping targets include Amazon, LinkedIn, and Glassdoor. Users must use their **own credentials** for scripts that require login. The project owner cannot be held responsible for any bans that the user can face in case of excessive scrapping use at your own risk. 
+> ⚠️ **Disclaimer**: The file names used here (e.g., `ecommerce_scraper.py`) are purposefully generic to respect platform terms of service. Actual scraping targets include Amazon, LinkedIn, and Glassdoor. Users must use their **own credentials** for scripts that require login. The project owner cannot be held responsible for any bans that the user can face in case of excessive scraping use at your own risk. 
 
 ---
 
@@ -27,7 +29,7 @@ This repository contains three Selenium-based automation scripts that extract st
 4. Customize the URL and search query manually inside the script.
 5. No login is required for Amazon.
 
-Note: Update this line to taget a specific page or update the search query as well 
+Note: Update this line to target a specific page or update the search query as well 
       driver.get("https://www.amazon.com")
 
 
@@ -37,7 +39,7 @@ This script logs into LinkedIn, navigates to the Jobs section, searches for a gi
 Features: 
 1. Automatically scrolls and scrapes details like company name, role, location, job type, and Easy Apply status.
 2. Stores the data in linkedin_jobs_1.csv. (which you can edit for your own file name)
-3. Linkdin is a stable site so it can easily go through hundread of job listing pages without any issue. Same code can be modified to get specific buissnes company employee or 
+3. Linkdin is a stable site so it can easily go through hundreds of job listing pages without any issue. Same code can be modified to get specific buissnes company employee or 
    hr data as well. 
 
 Notes: Requires a LinkedIn login. Replace the email and password in the script:
